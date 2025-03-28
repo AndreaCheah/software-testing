@@ -1,0 +1,26 @@
+# Ignore all KLEE output folders
+hw1/assignment1/klee-out-*/
+hw1/assignment2/klee-out-*/
+
+# Ignore LLVM bitcode and object files
+*.bc
+*.o
+
+# Ignore KLEE test output files
+*.ktest
+
+# Ignore editor/OS generated files
+*.log
+*.out
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore binaries and executables
+*.exe
+*.class
+*.dll
+*.so
+*.dylib
+
+.vscode/
